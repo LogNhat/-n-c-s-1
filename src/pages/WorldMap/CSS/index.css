@@ -1,0 +1,36 @@
+/* CSS trong file index.css */
+.leaflet-tooltip.tooltip {
+  background-color: rgba(255, 0, 0, 1) !important;
+  /* padding: 5px 10px !important; */
+  width: 20px !important;
+  height: 20px !important;
+  font-weight: bold !important;
+  border-radius: 100% !important;
+  border: none;
+}
+
+.leaflet-tooltip-arrow {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  border: none !important;
+  background: transparent !important;
+}
+.my-tooltip {
+  background-color: rgba(255, 0, 0, 0.9) !important; /* nền đỏ mờ */
+  opacity: 1 !important;
+  color: white !important; /* chữ trắng */
+  font-size: 14px !important; /* kích thước chữ */
+  padding: 5px 10px !important; /* padding */
+  border-radius: 6px !important; /* bo góc */
+  border: none !important;
+}
+
+.leaflet-popup-content {
+  width: 500px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}
